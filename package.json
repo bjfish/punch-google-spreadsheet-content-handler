@@ -1,0 +1,32 @@
+{
+    "name": "punch-google-spreadsheet-content-handler",
+    "title": "Punch Google Spreadsheet Content Handler",
+    "description": "A custom Punch content handler to fetch data from Google Spreadsheets.",
+    "version": "0.0.1",
+    "homepage": "https://github.com/bjfish/punch-google-spreadsheet-content-handler",
+    "author": {
+        "name": "Brandon Fish",
+        "url": "https://github.com/bjfish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/bjfish/punch-google-spreadsheet-content-handler.git"
+    },
+    "bugs": {
+        "url": "https://github.com/bjfish/punch-google-spreadsheet-content-handler/issues"
+    },
+    "main": "lib/google_spreadsheet_content_handler",
+    "dependencies": {
+        "punch": ">= 0.5.38",
+        "underscore": ">= 1.4.3",
+        "spreadsheet": "0.3.0"
+    },
+    "engines": {
+        "node": ">= 0.10.20"
+    },
+    "keywords": [
+        "punch",
+        "google-spreadsheet",
+        "content-handler"
+    ]
+}
